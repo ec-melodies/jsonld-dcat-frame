@@ -1,0 +1,4 @@
+{
+  "@context": "https://rawgit.com/ec-melodies/wp02-dcat/master/context.jsonld",
+  "@type": "Catalog"
+}
