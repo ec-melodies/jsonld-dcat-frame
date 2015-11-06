@@ -1,4 +1,13 @@
 {
   "@context": "https://rawgit.com/ec-melodies/wp02-dcat/master/context.jsonld",
-  "@type": "Dataset"
+  "@type": "Dataset",
+  "isPartOf": {
+    "@embed": "@never",
+    "@omitDefault": true
+  },
+  "parts": {
+    "@embed": "@never",
+    "@omitDefault": true
+  },
+  "distributions": {}
 }
