@@ -11,3 +11,4 @@ The typical workflow is to apply one of the two frames to a given JSON-LD resour
 - URLs are never automatically turned into relative ones
 - "distributions" is always an array (empty if no distributions exist)
 - supports dataset relationships via "isPartOf" and "parts" which are always just URI references (never embedded)
+- support for optionally translated titles and descriptions 

@@ -2,7 +2,12 @@
   "@context": [
     "https://rawgit.com/ec-melodies/wp02-dcat/master/context.jsonld",
     {
-      "@base": null
+      "@base": null,
+      "@language": null,
+      "title": { "@id": "dct:title" },
+      "description": { "@id": "dct:description" },
+      "title_i18n": { "@id": "dct:title", "@container": "@language" },
+      "description_i18n": { "@id": "dct:description", "@container": "@language" }
     }
   ],
   "@type": "Dataset",
