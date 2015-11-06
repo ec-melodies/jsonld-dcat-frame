@@ -9,6 +9,7 @@ The typical workflow is to apply one of the two frames to a given JSON-LD resour
 - short aliases for all common fields
 - proper hierarchical structure
 - URLs are never automatically turned into relative ones
-- "distributions" is always an array (empty if no distributions exist)
-- supports dataset relationships via "isPartOf" and "parts" which are always just URI references (never embedded)
-- support for optionally translated titles and descriptions via language maps
+- optionally translated titles and descriptions via language maps ("_i18n" fields)
+- dataset relationships via "isPartOf" and "parts" are always just URI references (never embedded)
+- "datasets" and "distributions" are always an array (empty if none exist)
+- "keywords" and "parts" are always an array if existing (omitted otherwise)
